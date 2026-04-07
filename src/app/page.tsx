@@ -1,9 +1,13 @@
-import { Button } from "@/components/ui/button";
+import AppShell from '@/components/layout/AppShell'
+import { Button } from '@/components/ui/button'
 
 export default function Main() {
   return (
     <div>
-      <Button>버튼</Button>
+      <AppShell />
+      <div>
+        <Button>로그인</Button>
+      </div>
     </div>
-  );
+  )
 }
